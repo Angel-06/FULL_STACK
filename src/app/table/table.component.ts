@@ -22,7 +22,8 @@ export class TableComponent implements OnInit, OnChanges {
   options: any = {
     0: () => [],
     1: () => [this.jsonInfo[0]],
-    2: () => this.jsonInfo
+    2: () => this.jsonInfo,
+    3: () => this.jsonInfo
   }
   
   constructor(private heroesSerice: HeroesService) {
