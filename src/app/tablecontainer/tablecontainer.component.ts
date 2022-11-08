@@ -3,7 +3,7 @@ import { Component, Input, OnInit, EventEmitter, Output, OnChanges, OnDestroy, S
 @Component({
   selector: 'app-tablecontainer',
   templateUrl: './tablecontainer.component.html',
-  styleUrls: ['./tablecontainer.component.scss']
+  styleUrls: ['./tablecontainer.component.css']
 })
 export class TablecontainerComponent implements OnInit, OnChanges, OnDestroy {
   @Input() appear: number = 0;

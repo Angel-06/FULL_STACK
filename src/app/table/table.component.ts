@@ -5,7 +5,7 @@ import { HeroesService } from '../heroes.service';
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
-  styleUrls: ['./table.component.scss']
+  styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit, OnChanges {
   @Input() appear: number = 0;
