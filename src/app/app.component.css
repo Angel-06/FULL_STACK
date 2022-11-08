@@ -1,11 +1,18 @@
 .titulo {
   font-size: 35px;
 	color: #eeeeee;
-	background-color: #6aa84f;
+	background-color: #fc0000;
 	font-family: 'Broadway';
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+.cerrado{
+  color: #ff0096;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -17,7 +24,7 @@
 }
 
 .item {
-    border: 1px solid #16537e;
+    border: 1px solid #fc0000;
     margin: 5px;
     border-radius: 5px;
     color: #000000;
@@ -36,8 +43,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000051;
-    color: white;
+    background-color: white;
+    color: black;
+    font-size: 20px;
 }
 
 .container {

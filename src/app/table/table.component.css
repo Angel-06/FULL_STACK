@@ -1,6 +1,23 @@
-th {
-  color:black;
+#tabla{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-family: 'Bahnschrift SemiBold';
+  background-color: brown;
+}
+
+th{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  font-size: 20px;
+}
+
+td{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
   font-size: 20px;
 }

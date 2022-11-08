@@ -1,11 +1,17 @@
-import { Component, Input, OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnInit,
+  OnChanges,
+  SimpleChanges,
+} from '@angular/core';
 
 import { HeroesService } from '../heroes.service';
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
-  styleUrls: ['./table.component.css']
+  styleUrls: ['./table.component.css'],
 })
 export class TableComponent implements OnInit, OnChanges {
   @Input() appear: number = 0;
@@ -13,37 +19,37 @@ export class TableComponent implements OnInit, OnChanges {
 
   jsonInfo: Hero[] = [];
 
-  aux = [{
-    name: '',
-    age: 0,
-    secretIdentity: ''
-  }];
+  aux = [
+    {
+      name: '',
+      age: 0,
+      secretIdentity: '',
+    },
+  ];
 
   options: any = {
     0: () => [],
     1: () => [this.jsonInfo[0]],
     2: () => this.jsonInfo,
-    3: () => this.jsonInfo
-  }
-  
+    3: () => this.jsonInfo,
+  };
+
   constructor(private heroesSerice: HeroesService) {
-    heroesSerice.get().subscribe(data => {
+    heroesSerice.get().subscribe((data) => {
       this.jsonInfo = data;
       this.aux = this.options[this.appear]();
     });
   }
   ngOnChanges(changes: SimpleChanges): void {
-    this.aux = this.jsonInfo.filter(x => x.name.includes(this.wordtofilter));
+    this.aux = this.jsonInfo.filter((x) => x.name.includes(this.wordtofilter));
   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
 
 interface Hero {
-  name: string,
-  age: number,
-  secretIdentity: string,
-  powers: string[]
+  name: string;
+  age: number;
+  secretIdentity: string;
+  powers: string[];
 }

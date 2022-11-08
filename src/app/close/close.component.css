@@ -1,13 +1,13 @@
 .close {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 b {
-    cursor: pointer;
-    margin-right: 10px;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 #cerrar {
-        font-size: 20px;
-        color: #f80000;
+  font-size: 20px;
+  color: #f80000;
 }

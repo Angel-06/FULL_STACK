@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-panel-aprende',
   templateUrl: './panel-aprende.component.html',
-  styleUrls: ['../app.component.css']
+  styleUrls: ['../app.component.css'],
 })
 export class PanelAprendeComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

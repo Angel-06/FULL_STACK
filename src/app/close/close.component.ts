@@ -3,16 +3,14 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-close',
   templateUrl: './close.component.html',
-  styleUrls: ['./close.component.css']
+  styleUrls: ['./close.component.css'],
 })
 export class CloseComponent implements OnInit {
-
   @Output() click = new EventEmitter<string>();
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   cerrar(flag: string) {
     this.click.emit(flag);

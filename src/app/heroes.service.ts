@@ -2,20 +2,19 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class HeroesService {
+  constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) { }
-
-  public get(){
+  public get() {
     return this.http.get<Hero[]>('./assets/heroes.json');
   }
 }
 
 interface Hero {
-  name: string,
-  age: number,
-  secretIdentity: string,
-  powers: string[]
+  name: string;
+  age: number;
+  secretIdentity: string;
+  powers: string[];
 }

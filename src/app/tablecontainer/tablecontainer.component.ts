@@ -1,28 +1,30 @@
-import { Component, Input, OnInit, EventEmitter, Output, OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  Input,
+  OnInit,
+  EventEmitter,
+  Output,
+  OnChanges,
+  OnDestroy,
+  SimpleChanges,
+} from '@angular/core';
 
 @Component({
   selector: 'app-tablecontainer',
   templateUrl: './tablecontainer.component.html',
-  styleUrls: ['./tablecontainer.component.css']
+  styleUrls: ['./tablecontainer.component.css'],
 })
 export class TablecontainerComponent implements OnInit, OnChanges, OnDestroy {
   @Input() appear: number = 0;
   @Output() destroyed = new EventEmitter<void>();
 
-  
+  wordtofilter: string = '';
 
-  wordtofilter:string = '';
-
-  constructor() { }
-  ngOnChanges(changes: SimpleChanges): void {
-
-  }
+  constructor() {}
+  ngOnChanges(changes: SimpleChanges): void {}
   ngOnDestroy(): void {
     this.destroyed.emit();
   }
 
-  ngOnInit(): void {
-    
-  }
-
+  ngOnInit(): void {}
 }
