@@ -1,5 +1,11 @@
-h1 {
-    text-align: center;
+.titulo {
+  font-size: 35px;
+	color: #eeeeee;
+	background-color: #6aa84f;
+	font-family: 'Broadway';
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .navbar {
@@ -11,15 +17,15 @@ h1 {
 }
 
 .item {
-    border: 1px solid black;
+    border: 1px solid #16537e;
     margin: 5px;
-    border-radius: 50px;
-    color: white;
+    border-radius: 5px;
+    color: #000000;
     font-size: large;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000051;
+    background-color: #2986cc;
 }
 
 .item:hover{
