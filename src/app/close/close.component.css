@@ -6,3 +6,8 @@ b {
     cursor: pointer;
     margin-right: 10px;
 }
+
+#cerrar {
+        font-size: 20px;
+        color: #f80000;
+}
