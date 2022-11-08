@@ -17,7 +17,43 @@
   },
   {
     "name": "Eternal Flame",
-    "age": 1000000,
+    "age": 100000,
+    "secretIdentity": "Unknown",
+    "powers": [
+      "Immortality",
+      "Heat Immunity",
+      "Inferno",
+      "Teleportation",
+      "Interdimensional travel"
+    ]
+  },
+  {
+    "name": "Superman",
+    "age": 150,
+    "secretIdentity": "Unknown",
+    "powers": [
+      "Immortality",
+      "Heat Immunity",
+      "Inferno",
+      "Teleportation",
+      "Interdimensional travel"
+    ]
+  },
+  {
+    "name": "Batman",
+    "age": 30,
+    "secretIdentity": "Unknown",
+    "powers": [
+      "Immortality",
+      "Heat Immunity",
+      "Inferno",
+      "Teleportation",
+      "Interdimensional travel"
+    ]
+  },
+  {
+    "name": "Wolverine",
+    "age": 200,
     "secretIdentity": "Unknown",
     "powers": [
       "Immortality",
