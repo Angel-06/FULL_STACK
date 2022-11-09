@@ -30,7 +30,7 @@
   {
     "name": "Superman",
     "age": 150,
-    "secretIdentity": "Unknown",
+    "secretIdentity": "Clark Ken",
     "powers": [
       "Immortality",
       "Heat Immunity",
@@ -42,7 +42,7 @@
   {
     "name": "Batman",
     "age": 30,
-    "secretIdentity": "Unknown",
+    "secretIdentity": "Bruse Wayne",
     "powers": [
       "Immortality",
       "Heat Immunity",
@@ -54,7 +54,7 @@
   {
     "name": "Wolverine",
     "age": 200,
-    "secretIdentity": "Unknown",
+    "secretIdentity": "Logan",
     "powers": [
       "Immortality",
       "Heat Immunity",
