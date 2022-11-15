@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OpcionComponent } from './opcion/opcion.component';
 import { PanelComponent } from './panel/panel.component';
-import { PanelDeclarativoComponent } from './panel-declarativo/panel-declarativo.component';
-import { PanelBasadoComponent } from './panel-basado/panel-basado.component';
+import { PanelJavaScriptComponent } from './panel-JavaScript/panel-JavaScript.component';
+import { PanelCSSComponent } from './panel-CSS/panel-CSS.component';
 import { PanelHTMLComponent } from './panel-HTML/panel-HTML.component';
 import { CloseComponent } from './close/close.component';
 import { TableComponent } from './table/table.component';
@@ -20,8 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     OpcionComponent,
     PanelComponent,
-    PanelDeclarativoComponent,
-    PanelBasadoComponent,
+    PanelJavaScriptComponent,
+    PanelCSSComponent,
     PanelHTMLComponent,
     CloseComponent,
     TableComponent,

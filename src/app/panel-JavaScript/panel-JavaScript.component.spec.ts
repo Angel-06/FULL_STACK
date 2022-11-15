@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PanelDeclarativoComponent } from './panel-declarativo.component';
+import { PanelJavaScriptComponent } from './panel-JavaScript.component';
 
-describe('PanelDeclarativoComponent', () => {
-  let component: PanelDeclarativoComponent;
-  let fixture: ComponentFixture<PanelDeclarativoComponent>;
+describe('PanelJavaScriptComponent', () => {
+  let component: PanelJavaScriptComponent;
+  let fixture: ComponentFixture<PanelJavaScriptComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PanelDeclarativoComponent],
+      declarations: [PanelJavaScriptComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PanelDeclarativoComponent);
+    fixture = TestBed.createComponent(PanelJavaScriptComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

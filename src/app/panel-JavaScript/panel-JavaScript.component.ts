@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-panel-declarativo',
-  templateUrl: './panel-declarativo.component.html',
+  selector: 'app-panel-JavaScript',
+  templateUrl: './panel-JavaScript.component.html',
   styleUrls: ['../app.component.css'],
 })
-export class PanelDeclarativoComponent implements OnInit {
+export class PanelJavaScriptComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}

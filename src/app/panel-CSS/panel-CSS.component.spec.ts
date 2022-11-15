@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PanelBasadoComponent } from './panel-basado.component';
+import { PanelCSSComponent } from './panel-CSS.component';
 
-describe('PanelBasadoComponent', () => {
-  let component: PanelBasadoComponent;
-  let fixture: ComponentFixture<PanelBasadoComponent>;
+describe('PanelCSSComponent', () => {
+  let component: PanelCSSComponent;
+  let fixture: ComponentFixture<PanelCSSComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PanelBasadoComponent],
+      declarations: [PanelCSSComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PanelBasadoComponent);
+    fixture = TestBed.createComponent(PanelCSSComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
