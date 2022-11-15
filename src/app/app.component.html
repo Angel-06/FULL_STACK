@@ -10,7 +10,7 @@
   <app-close align="center" *ngIf="show !== opciones.nopcion"
     (click)="cerrar($event)">
   </app-close>
-    <app-panel-aprende *ngIf="opciones.opcion1 === show"></app-panel-aprende>
+    <app-panel-HTML *ngIf="opciones.opcion1 === show"></app-panel-HTML>
     <app-panel-basado *ngIf="opciones.opcion2 === show"></app-panel-basado>
     <app-panel-declarativo *ngIf="opciones.opcion3 === show"></app-panel-declarativo>
     <app-tablecontainer *ngIf="opciones.opcion4 === show" [appear]="counterAppear" (destroyed)="tableDestroy()"></app-tablecontainer>

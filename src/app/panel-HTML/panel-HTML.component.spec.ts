@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PanelAprendeComponent } from './panel-aprende.component';
+import { PanelAprendeComponent } from './panel-HTML.component';
 
 describe('PanelAprendeComponent', () => {
   let component: PanelAprendeComponent;
