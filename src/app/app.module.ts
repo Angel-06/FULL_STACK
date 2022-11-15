@@ -8,7 +8,7 @@ import { OpcionComponent } from './opcion/opcion.component';
 import { PanelComponent } from './panel/panel.component';
 import { PanelDeclarativoComponent } from './panel-declarativo/panel-declarativo.component';
 import { PanelBasadoComponent } from './panel-basado/panel-basado.component';
-import { PanelAprendeComponent } from './panel-HTML/panel-HTML.component';
+import { PanelHTMLComponent } from './panel-HTML/panel-HTML.component';
 import { CloseComponent } from './close/close.component';
 import { TableComponent } from './table/table.component';
 import { TablecontainerComponent } from './tablecontainer/tablecontainer.component';
@@ -22,7 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     PanelComponent,
     PanelDeclarativoComponent,
     PanelBasadoComponent,
-    PanelAprendeComponent,
+    PanelHTMLComponent,
     CloseComponent,
     TableComponent,
     TablecontainerComponent,
