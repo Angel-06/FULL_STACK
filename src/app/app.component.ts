@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angular_vacaciones';
+  title = 'Angular Full Stack';
 
   titleOptions: Record<string, string> = {
     opcion1: 'Declarativo',
