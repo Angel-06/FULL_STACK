@@ -9,6 +9,5 @@ export class OpcionComponent implements OnInit {
   @Input() title: string = '';
 
   constructor() {}
-
   ngOnInit(): void {}
 }

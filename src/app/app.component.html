@@ -1,11 +1,9 @@
-<h1 class = 'titulo'>FULL STACK</h1>
+
 <div class="navbar">
     <app-opcion [title]="titleOptions['opcion1']" (click)="change(opciones.opcion1)"></app-opcion>
     <app-opcion [title]="titleOptions['opcion2']" (click)="change(opciones.opcion2)"></app-opcion>
     <app-opcion [title]="titleOptions['opcion3']" (click)="change(opciones.opcion3)"></app-opcion>
-    <app-opcion [title]="titleOptions['opcion4']" (click)="change(opciones.opcion4)"></app-opcion>
 </div>
-<h3 class='cerrado' *ngIf="show === opciones.inicial">{{cerrado}}</h3>
 <div class="container">
   <app-close align="center" *ngIf="show !== opciones.nopcion"
     (click)="cerrar($event)">
@@ -13,5 +11,4 @@
     <app-panel-HTML *ngIf="opciones.opcion1 === show"></app-panel-HTML>
     <app-panel-CSS *ngIf="opciones.opcion2 === show"></app-panel-CSS>
     <app-panel-JavaScript *ngIf="opciones.opcion3 === show"></app-panel-JavaScript>
-    <app-tablecontainer *ngIf="opciones.opcion4 === show" [appear]="counterAppear" (destroyed)="tableDestroy()"></app-tablecontainer>
 </div>

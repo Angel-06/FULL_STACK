@@ -7,6 +7,5 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PanelHTMLComponent implements OnInit {
   constructor() {}
-
   ngOnInit(): void {}
 }

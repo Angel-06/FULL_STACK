@@ -1,34 +1,11 @@
-.titulo {
-  font-size: 35px;
-	color: #eeeeee;
-	background-color: #fc0000;
-	font-family: 'Broadway';
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
-.cerrado{
-  color: #ff0096;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .navbar {
-    width: 100%;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .item {
-    border: 1px solid #fc0000;
-    margin: 5px;
-    border-radius: 5px;
     color: #000000;
-    font-size: large;
     display: flex;
     align-items: center;
     justify-content: center;

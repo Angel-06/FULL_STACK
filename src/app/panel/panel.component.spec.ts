@@ -11,13 +11,11 @@ describe('PanelComponent', () => {
       declarations: [PanelComponent],
     }).compileComponents();
   });
-
   beforeEach(() => {
     fixture = TestBed.createComponent(PanelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });

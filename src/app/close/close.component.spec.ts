@@ -11,13 +11,11 @@ describe('CloseComponent', () => {
       declarations: [CloseComponent],
     }).compileComponents();
   });
-
   beforeEach(() => {
     fixture = TestBed.createComponent(CloseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });

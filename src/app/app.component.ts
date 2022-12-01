@@ -9,10 +9,9 @@ export class AppComponent {
   title = 'Angular Full Stack';
 
   titleOptions: Record<string, string> = {
-    opcion1: 'HTML',
-    opcion2: 'CSS',
-    opcion3: 'JavaScript',
-    opcion4: 'Heroes',
+    opcion1: 'TAB 1',
+    opcion2: 'TAB 2',
+    opcion3: 'TAB 3',
   };
 
   cerrado = '';
@@ -23,9 +22,8 @@ export class AppComponent {
     opcion1: 1,
     opcion2: 2,
     opcion3: 3,
-    opcion4: 4,
-    nopcion: 0,
-    inicial: 0,
+    nopcion: 1,
+    inicial: 1,
   };
 
   show = this.opciones.inicial;

@@ -7,7 +7,6 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class CloseComponent implements OnInit {
   @Output() click = new EventEmitter<string>();
-
   constructor() {}
 
   ngOnInit(): void {}

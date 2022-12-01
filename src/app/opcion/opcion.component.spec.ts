@@ -11,13 +11,11 @@ describe('OpcionComponent', () => {
       declarations: [OpcionComponent],
     }).compileComponents();
   });
-
   beforeEach(() => {
     fixture = TestBed.createComponent(OpcionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });

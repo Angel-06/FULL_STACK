@@ -10,8 +10,6 @@ import { PanelJavaScriptComponent } from './panel-JavaScript/panel-JavaScript.co
 import { PanelCSSComponent } from './panel-CSS/panel-CSS.component';
 import { PanelHTMLComponent } from './panel-HTML/panel-HTML.component';
 import { CloseComponent } from './close/close.component';
-import { TableComponent } from './table/table.component';
-import { TablecontainerComponent } from './tablecontainer/tablecontainer.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -24,8 +22,6 @@ import { HttpClientModule } from '@angular/common/http';
     PanelCSSComponent,
     PanelHTMLComponent,
     CloseComponent,
-    TableComponent,
-    TablecontainerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
